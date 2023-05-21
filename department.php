@@ -65,7 +65,6 @@
                         <span>Learn More</span>
                         <ion-icon name="arrow-forward"></ion-icon>
                     </a>
-
                 </div>
             </li>
 
@@ -90,7 +89,6 @@
                         <span>Learn More</span>
                         <ion-icon name="arrow-forward"></ion-icon>
                     </a>
-
                 </div>
             </li>
 
@@ -114,7 +112,6 @@
                         <span>Learn More</span>
                         <ion-icon name="arrow-forward"></ion-icon>
                     </a>
-
                 </div>
             </li>
 
@@ -138,11 +135,9 @@
                         <span>Learn More</span>
                         <ion-icon name="arrow-forward"></ion-icon>
                     </a>
-
                 </div>
             </li>
         </ul>
-
         <!-- <button class="btn btn-primary">View All Department</button>. -->
     </div>
 </section>

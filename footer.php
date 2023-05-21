@@ -17,7 +17,7 @@
 
                 <div class="wrapper">
                     <span class="span">Call:</span>
-                    <a href="tel:+6283125389440" class="footer-link">+6231 2538 9440</a>
+                    <a href="tel:+6283125389440" class="footer-link">+62 31 2538 9440</a>
                 </div>
 
                 <div class="wrapper">

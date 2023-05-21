@@ -9,7 +9,7 @@
             <li>
                 <div class="instructor-card">
                     <figure class="card-banner">
-                        <img src="./assets/images/instructor-1.png" alt="Heylen Junila Saputry">
+                        <img src="./assets/images/Heylen.png" alt="Heylen Junila Saputry">
                     </figure>
                     <a href="#">
                         <h3 class="card-title">Heylen</h3>
