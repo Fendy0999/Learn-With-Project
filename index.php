@@ -33,7 +33,7 @@
   <?php include "navbar.php";?>
 
   <!-- Banner content -->
-  <?php include "home.php";?>
+  <?php include "Home.php";?>
 
   <!-- Instructor -->
   <?php include "instructor.php";?>

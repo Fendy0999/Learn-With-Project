@@ -19,3 +19,4 @@
                 </figure>
             </div>
         </section>
+</main>

@@ -77,7 +77,7 @@
             <li>
                 <div class="instructor-card">
                     <figure class="card-banner">
-                        <img src="./assets/images/instructor-1.png" alt="Chrisca Lolita">
+                        <img src="./assets/images/caca.png" alt="Chrisca Lolita">
                     </figure>
                     <a href="#">
                         <h3 class="card-title">Chrisca</h3>
