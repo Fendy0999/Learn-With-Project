@@ -15,16 +15,16 @@
             </div>
             <ul class="navbar-list">
                 <li class="navbar-item">
-                    <a href="#" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Home</a>
+                    <a href="#home" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Teachers</a>
+                    <a href="#instructor" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Teachers</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Course</a>
+                    <a href="#departments" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Course</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Contact</a>
+                    <a href="#contact" class="navbar-link title-sm" style="font-weight: bold;" data-nav-link>Contact</a>
                 </li>
             </ul>
         </nav>

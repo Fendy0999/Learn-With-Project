@@ -1,6 +1,6 @@
 <main>
     <article>
-        <section class="section hero has-bg-image" aria-labelledby="hero-label" style="background-image: url('./assets/images/Banner\ polos.png')">
+        <section class="section hero has-bg-image" id="home" aria-labelledby="hero-label" style="background-image: url('./assets/images/Banner\ polos.png')">
             <div class="container">
                 <div class="hero-content">
                     <h1 class="headline-lg" id="hero-label">

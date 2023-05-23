@@ -39,7 +39,6 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
 
-
   /* Typography */
   --ff-gilroy: "Gilroy", sans-serif;
   --headline-lg: 4.8rem;
@@ -441,6 +440,7 @@ body.nav-active {
 
 .h2-instructor-title {
   text-align: center;
+  margin-top: 10px;
   margin-bottom: 80px;
   font-size: 70px;
 }
@@ -520,8 +520,8 @@ hero .btn-group {
   gap: 12px;
 }
 
-    /* #CONTAINER QUERIES */
-   /* container query for card */
+/* #CONTAINER QUERIES */
+/* container query for card */
 
 .card-container {
   container-type: inline-size;
@@ -576,12 +576,12 @@ hero .btn-group {
   transition: var(--transition);
 }
 
-.departments-card:hover img { 
-  transform: scale(1.05); 
+.departments-card:hover img {
+  transform: scale(1.05);
 }
 
-.departments-card .card-title { 
-  margin-bottom: 15px; 
+.departments-card .card-title {
+  margin-bottom: 15px;
 }
 
 .departments-card .card-text {
@@ -599,14 +599,13 @@ hero .btn-group {
   transition: var(--transition);
 }
 
-.departments-card .card-link:is(:hover, :focus) { 
-  gap: 15px; 
+.departments-card .card-link:is(:hover, :focus) {
+  gap: 15px;
 }
 
-.departments .btn-primary { 
-  margin-inline: auto; 
+.departments .btn-primary {
+  margin-inline: auto;
 }
-
 
 /* Footer */
 .footer {
@@ -621,8 +620,8 @@ hero .btn-group {
   gap: 30px;
 }
 
-.footer-brand-text { 
-  margin-block: 20px; 
+.footer-brand-text {
+  margin-block: 20px;
 }
 
 .footer-brand .wrapper {
@@ -630,16 +629,16 @@ hero .btn-group {
   gap: 5px;
 }
 
-.footer-brand .wrapper .span { 
-  font-weight: var(--fw-500); 
+.footer-brand .wrapper .span {
+  font-weight: var(--fw-500);
 }
 
-.footer-link { 
-  transition: 0.25s ease; 
+.footer-link {
+  transition: 0.25s ease;
 }
 
-.footer-link:is(:hover, :focus) { 
-  color: white; 
+.footer-link:is(:hover, :focus) {
+  color: white;
 }
 
 .footer-list-title {
@@ -650,8 +649,8 @@ hero .btn-group {
   margin-block-end: 10px;
 }
 
-.footer-list .footer-link { 
-  padding-block: 5px; 
+.footer-list .footer-link {
+  padding-block: 5px;
 }
 
 .footer-list-text {
@@ -663,8 +662,8 @@ hero .btn-group {
   gap: 25px;
 }
 
-.social-link { 
-  font-size: 20px; 
+.social-link {
+  font-size: 20px;
 }
 
 .footer-bottom {
@@ -672,8 +671,8 @@ hero .btn-group {
   padding-block: 30px;
 }
 
-.copyright { 
-  text-align: center; 
+.copyright {
+  text-align: center;
 }
 
 .copyright-link {
@@ -700,26 +699,23 @@ hero .btn-group {
 
   /* Department Content */
 
-  .departments-card { 
-    padding: 30px; 
+  .departments-card {
+    padding: 30px;
   }
 
   .instructor-list,
-  .footer-link-box { 
-    grid-template-columns: 1fr 1fr; 
+  .footer-link-box {
+    grid-template-columns: 1fr 1fr;
   }
 
   /* Footer */
   .footer-brand,
-  .footer-list:last-child { 
-    grid-column: 1 / 3; 
+  .footer-list:last-child {
+    grid-column: 1 / 3;
   }
-
 }
 
-
 @media (min-width: 768px) {
-
   /* Instructor */
   .instructor-title {
     max-width: 600px;
@@ -731,14 +727,14 @@ hero .btn-group {
     margin-inline: auto;
   }
 
-  .departments-list { 
-    grid-template-columns: 1fr 1fr; 
+  .departments-list {
+    grid-template-columns: 1fr 1fr;
   }
 
   /* Footer */
   .footer-brand,
-  .footer-list:last-child { 
-    grid-column: auto; 
+  .footer-list:last-child {
+    grid-column: auto;
   }
 }
 
@@ -784,11 +780,10 @@ hero .btn-group {
   }
 
   /* Footer */
-  .footer .grid-list { 
-    grid-template-columns: 1fr 0.6fr 0.6fr 1.2fr; 
+  .footer .grid-list {
+    grid-template-columns: 1fr 0.6fr 0.6fr 1.2fr;
   }
 }
-
 
 @media (min-width: 1024px) {
   /* Instructor */
@@ -824,7 +819,6 @@ hero .btn-group {
     z-index: -1;
   }
 
-
   /* Department Content */
   .departments {
     position: relative;
@@ -837,12 +831,12 @@ hero .btn-group {
     z-index: -1;
   }
 
-  .departments-title { 
-    max-width: 500px; 
+  .departments-title {
+    max-width: 500px;
   }
 
-  .departments-list { 
-    grid-template-columns: repeat(3, 1fr); 
+  .departments-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .departments-card {
@@ -853,7 +847,6 @@ hero .btn-group {
     align-items: flex-start;
   }
 }
-
 
 @media (min-width: 1200px) {
   .container {
@@ -884,7 +877,8 @@ hero .btn-group {
   }
 
   /* Department Content */
-  .departments-title { 
-    max-width: 550px; 
+  .departments-title {
+    max-width: 550px;
+    font-size: 70px;
   }
 }

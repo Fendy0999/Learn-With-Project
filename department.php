@@ -1,6 +1,5 @@
-<section class="departments">
+<section class="departments" id="departments">
     <div class="container">
-        <!-- <img src="./assets/images/departmets-vector.svg" alt="Vector line art" class="vector-line"> -->
         <h2 class="h2 departments-title">Our Course</h2>
         <ul class="departments-list">
             <li>
@@ -138,6 +137,5 @@
                 </div>
             </li>
         </ul>
-        <!-- <button class="btn btn-primary">View All Department</button>. -->
     </div>
 </section>

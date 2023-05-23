@@ -1,4 +1,4 @@
-<section class="instructor">
+<section class="instructor" id="instructor">
     <div class="container">
         <!-- <img src="./assets/images/instructor-vactor-1.svg"> -->
         <div class="title-wrapper">

@@ -1,5 +1,5 @@
 <footer class="footer" style="background-image: url('./assets/images')">
-    <div class="footer-top section">
+    <div class="footer-top section" id="contact">
         <div class="container grid-list">
             <div class="footer-brand">
                 <a href="#" class="logo">
