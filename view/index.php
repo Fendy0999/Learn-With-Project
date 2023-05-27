@@ -1,3 +1,6 @@
+<?php 
+include "connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,16 +14,16 @@
   <meta name="title" content="LearnWith">
 
   <!-- - favicon-->
-  <link rel="shortcut icon" href="assets/images/LearnWith Logo.png" type="image/svg+xml">
+  <link rel="shortcut icon" href="../assets/images/LearnWith Logo.png" type="image/svg+xml">
 
   <!-- - custom font link-->
-  <link rel="stylesheet" href="./assets/font/font.css">
+  <link rel="stylesheet" href="../assets/font/font.css">
 
   <!--- custom css link-->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 
-  <!-- - preload images-->
-  <link rel="preload" as="image" href="./assets/images/banner.png">
+  <!-- preload images-->
+  <!-- <link rel="preload" as="image" href="../assets/images/banner.png"> -->
 </head>
 
 <body>
