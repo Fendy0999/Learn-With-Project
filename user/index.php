@@ -1,5 +1,10 @@
-<?php 
-include "connection.php";
+<?php
+require '../config/secure.php';
+
+if(isset($_POST['action'])){
+  unset($_SESSION['mail']);
+  header('location: ../index.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +27,8 @@ include "connection.php";
   <!--- custom css link-->
   <link rel="stylesheet" href="../assets/css/style.css">
 
-  <!-- preload images-->
-  <!-- <link rel="preload" as="image" href="../assets/images/banner.png"> -->
+  <!-- - preload images-->
+  <link rel="preload" as="image" href="../assets/images/banner.png">
 </head>
 
 <body>
@@ -36,7 +41,7 @@ include "connection.php";
   <?php include "navbar.php";?>
 
   <!-- Banner content -->
-  <?php include "home.php";?>
+  <?php include "Home.php";?>
 
   <!-- Instructor -->
   <?php include "instructor.php";?>
@@ -47,8 +52,10 @@ include "connection.php";
   <!-- Footer -->
   <?php include "footer.php";?>
 
+  <!--  -->
+
   <!-- - custom js link-->
-  <script src="./assets/js/script.js"></script>
+  <script src="../assets/js/script.js"></script>
 
   <!-- - ionicon-->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

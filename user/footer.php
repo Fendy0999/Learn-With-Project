@@ -1,9 +1,9 @@
-<footer class="footer" style="background-image: url('./assets/images')">
-    <div class="footer-top section">
+<footer class="footer" style="background-image: url('../assets/images')">
+    <div class="footer-top section" id="contact">
         <div class="container grid-list">
             <div class="footer-brand">
                 <a href="#" class="logo">
-                    <img src="./assets/images/LearnWith White.png" width="162" height="50" alt="LearnWith">
+                    <img src="../assets/images/LearnWith White.png" width="162" height="50" alt="LearnWith">
                 </a>
 
                 <p class="footer-brand-text">
@@ -17,7 +17,7 @@
 
                 <div class="wrapper">
                     <span class="span">Call:</span>
-                    <a href="tel:+6283125389440" class="footer-link">+6231 2538 9440</a>
+                    <a href="tel:+6283125389440" class="footer-link">+62 31 2538 9440</a>
                 </div>
 
                 <div class="wrapper">
@@ -28,19 +28,19 @@
 
             <ul class="footer-list">
                 <li>
-                    <p class="footer-list-title">Online Platform</p>
+                    <p class="footer-list-title">Navigation</p>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Home</a>
+                    <a href="#home" class="footer-link">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Teacher</a>
+                    <a href="#instructor" class="footer-link">Teacher</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Course</a>
+                    <a href="#departments" class="footer-link">Course</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Contact</a>
+                    <a href="#contact" class="footer-link">Contact</a>
                 </li>
             </ul>
 

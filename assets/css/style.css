@@ -39,7 +39,6 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
 
-
   /* Typography */
   --ff-gilroy: "Gilroy", sans-serif;
   --headline-lg: 4.8rem;
@@ -208,7 +207,7 @@ body.nav-active {
 }
 
 :is(.btn-primary, .btn-secondary):is(:hover, :focus-visible) {
-  box-shadow: 0 0 0 2px var(--white), 0 0 0 5px var(--bg);
+  box-shadow: 0 0 0 2px var(--white), 0 0 0 5px;
 }
 
 .btn-primary {
@@ -223,7 +222,6 @@ body.nav-active {
 
 .btn-tertiary {
   --bg: var(--white);
-  color: var(--oxford-blue);
   font-weight: var(--fw-600);
 }
 
@@ -410,7 +408,7 @@ body.nav-active {
 }
 
 .navbar-link:is(:hover, :focus-visible) {
-  color: var(--oxford-blue);
+  color: var(--black);
 }
 
 .overlay {
@@ -442,6 +440,7 @@ body.nav-active {
 
 .h2-instructor-title {
   text-align: center;
+  margin-top: 10px;
   margin-bottom: 80px;
   font-size: 70px;
 }
@@ -480,8 +479,6 @@ body.nav-active {
 .instructor-card .card-subtitle {
   margin-bottom: 15px;
 }
-
-/* None */
 
 .card-social-list {
   display: flex;
@@ -523,8 +520,8 @@ hero .btn-group {
   gap: 12px;
 }
 
-    /* #CONTAINER QUERIES */
-   /* container query for card */
+/* #CONTAINER QUERIES */
+/* container query for card */
 
 .card-container {
   container-type: inline-size;
@@ -544,7 +541,6 @@ hero .btn-group {
 /* Department Content */
 .departments {
   padding-block: var(--section-padding);
-  background: var(--floral-white);
 }
 
 .departments-title {
@@ -580,12 +576,12 @@ hero .btn-group {
   transition: var(--transition);
 }
 
-.departments-card:hover img { 
-  transform: scale(1.05); 
+.departments-card:hover img {
+  transform: scale(1.05);
 }
 
-.departments-card .card-title { 
-  margin-bottom: 15px; 
+.departments-card .card-title {
+  margin-bottom: 15px;
 }
 
 .departments-card .card-text {
@@ -594,7 +590,6 @@ hero .btn-group {
 }
 
 .departments-card .card-link {
-  color: var(--orange-web);
   font-family: var(--ff-rubik);
   font-weight: var(--fw-500);
   display: flex;
@@ -604,14 +599,13 @@ hero .btn-group {
   transition: var(--transition);
 }
 
-.departments-card .card-link:is(:hover, :focus) { 
-  gap: 15px; 
+.departments-card .card-link:is(:hover, :focus) {
+  gap: 15px;
 }
 
-.departments .btn-primary { 
-  margin-inline: auto; 
+.departments .btn-primary {
+  margin-inline: auto;
 }
-
 
 /* Footer */
 .footer {
@@ -626,8 +620,8 @@ hero .btn-group {
   gap: 30px;
 }
 
-.footer-brand-text { 
-  margin-block: 20px; 
+.footer-brand-text {
+  margin-block: 20px;
 }
 
 .footer-brand .wrapper {
@@ -635,16 +629,16 @@ hero .btn-group {
   gap: 5px;
 }
 
-.footer-brand .wrapper .span { 
-  font-weight: var(--fw-500); 
+.footer-brand .wrapper .span {
+  font-weight: var(--fw-500);
 }
 
-.footer-link { 
-  transition: 0.25s ease; 
+.footer-link {
+  transition: 0.25s ease;
 }
 
-.footer-link:is(:hover, :focus) { 
-  color: white; 
+.footer-link:is(:hover, :focus) {
+  color: white;
 }
 
 .footer-list-title {
@@ -655,8 +649,8 @@ hero .btn-group {
   margin-block-end: 10px;
 }
 
-.footer-list .footer-link { 
-  padding-block: 5px; 
+.footer-list .footer-link {
+  padding-block: 5px;
 }
 
 .footer-list-text {
@@ -668,8 +662,8 @@ hero .btn-group {
   gap: 25px;
 }
 
-.social-link { 
-  font-size: 20px; 
+.social-link {
+  font-size: 20px;
 }
 
 .footer-bottom {
@@ -677,8 +671,8 @@ hero .btn-group {
   padding-block: 30px;
 }
 
-.copyright { 
-  text-align: center; 
+.copyright {
+  text-align: center;
 }
 
 .copyright-link {
@@ -705,26 +699,23 @@ hero .btn-group {
 
   /* Department Content */
 
-  .departments-card { 
-    padding: 30px; 
+  .departments-card {
+    padding: 30px;
   }
 
   .instructor-list,
-  .footer-link-box { 
-    grid-template-columns: 1fr 1fr; 
+  .footer-link-box {
+    grid-template-columns: 1fr 1fr;
   }
 
   /* Footer */
   .footer-brand,
-  .footer-list:last-child { 
-    grid-column: 1 / 3; 
+  .footer-list:last-child {
+    grid-column: 1 / 3;
   }
-
 }
 
-
 @media (min-width: 768px) {
-
   /* Instructor */
   .instructor-title {
     max-width: 600px;
@@ -736,14 +727,14 @@ hero .btn-group {
     margin-inline: auto;
   }
 
-  .departments-list { 
-    grid-template-columns: 1fr 1fr; 
+  .departments-list {
+    grid-template-columns: 1fr 1fr;
   }
 
   /* Footer */
   .footer-brand,
-  .footer-list:last-child { 
-    grid-column: auto; 
+  .footer-list:last-child {
+    grid-column: auto;
   }
 }
 
@@ -789,11 +780,10 @@ hero .btn-group {
   }
 
   /* Footer */
-  .footer .grid-list { 
-    grid-template-columns: 1fr 0.6fr 0.6fr 1.2fr; 
+  .footer .grid-list {
+    grid-template-columns: 1fr 0.6fr 0.6fr 1.2fr;
   }
 }
-
 
 @media (min-width: 1024px) {
   /* Instructor */
@@ -829,7 +819,6 @@ hero .btn-group {
     z-index: -1;
   }
 
-
   /* Department Content */
   .departments {
     position: relative;
@@ -842,12 +831,12 @@ hero .btn-group {
     z-index: -1;
   }
 
-  .departments-title { 
-    max-width: 500px; 
+  .departments-title {
+    max-width: 500px;
   }
 
-  .departments-list { 
-    grid-template-columns: repeat(3, 1fr); 
+  .departments-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .departments-card {
@@ -858,7 +847,6 @@ hero .btn-group {
     align-items: flex-start;
   }
 }
-
 
 @media (min-width: 1200px) {
   .container {
@@ -889,7 +877,47 @@ hero .btn-group {
   }
 
   /* Department Content */
-  .departments-title { 
-    max-width: 550px; 
+  .departments-title {
+    max-width: 550px;
+    font-size: 70px;
   }
+}
+
+/* login.php */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

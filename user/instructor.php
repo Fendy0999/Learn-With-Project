@@ -1,4 +1,4 @@
-<section class="instructor">
+<section class="instructor" id="instructor">
     <div class="container">
         <!-- <img src="./assets/images/instructor-vactor-1.svg"> -->
         <div class="title-wrapper">
@@ -9,7 +9,7 @@
             <li>
                 <div class="instructor-card">
                     <figure class="card-banner">
-                        <img src="./assets/images/instructor-1.png" alt="Heylen Junila Saputry">
+                        <img src="../assets/images/Heylen.png" alt="Heylen Junila Saputry">
                     </figure>
                     <a href="#">
                         <h3 class="card-title">Heylen</h3>
@@ -43,7 +43,7 @@
             <li>
                 <div class="instructor-card">
                     <figure class="card-banner">
-                        <img src="./assets/images/Fendy.png" alt="Fendy">
+                        <img src="../assets/images/Fendy.png" alt="Fendy">
                     </figure>
                     <a href="#">
                         <h3 class="card-title">Fendy</h3>
@@ -77,7 +77,7 @@
             <li>
                 <div class="instructor-card">
                     <figure class="card-banner">
-                        <img src="./assets/images/instructor-1.png" alt="Chrisca Lolita">
+                        <img src="../assets/images/caca.png" alt="Chrisca Lolita">
                     </figure>
                     <a href="#">
                         <h3 class="card-title">Chrisca</h3>
