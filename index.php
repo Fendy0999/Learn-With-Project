@@ -46,11 +46,11 @@ if(isset($_SESSION['mail'])){
             <!-- Submit button -->
             <!-- <button type="submit" class="btn btn-primary btn-lg">Login in</button> -->
             <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-              <input type="submit" value="Sign in" name="login" class="btn btn-warning btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600;" />
+              <input type="submit" value="Sign in" name="login" class="btn btn-primary btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600;" />
             </div>
 
           </form><br>
-          <p align="center">I don't have any account <a href="register.php" class="text-warning" style="font-weight:600;text-decoration:none;">Register Here</a></p>
+          <p align="center">I don't have any account <a href="register.php" class="text-primary" style="font-weight:600;text-decoration:none;">Register Here</a></p>
         </div>
       </div>
     </div>

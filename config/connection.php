@@ -1,8 +1,8 @@
 <?php
 $server = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'learnwith';
+$username = 'n1566458_learn_with';
+$password = '4ul7ODUggrvK';
+$database = 'n1566458_learn_with';
 
 if (isset($_POST))
     $conn = new mysqli($server, $username, $password, $database);
